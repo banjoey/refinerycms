@@ -264,11 +264,11 @@ module Refinery
     end
 
     def path_cache_key
-      [cache_key, 'nested_path'].join('#')
+      [cache_key, 'nested-path'].join('#')
     end
 
     def url_cache_key
-      [cache_key, 'nested_url'].join('#')
+      [cache_key, 'nested-url'].join('#')
     end
 
     def cache_key
